@@ -1,0 +1,27 @@
+{
+  "name": "node-api-tests",
+  "version": "1.0.0",
+  "description": "example: Amazon product scrapper",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateusPedrosoSilva/node-api-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateusPedrosoSilva/node-api-tests/issues"
+  },
+  "homepage": "https://github.com/MateusPedrosoSilva/node-api-tests#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
